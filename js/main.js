@@ -7,9 +7,12 @@ $(document).ready(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 50) {
       $(".principal").css("background","#292c2f");
+      $(".principal").css("padding","");
+        
     }
     else {
-      $(".principal").css("background","transparent");  
+      $(".principal").css("background","transparent");
+      $(".principal").css("padding","25px 1rem");
     }
   })
 })
@@ -74,3 +77,5 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 /*TOGGLE ICON NAVBAR*/
+
+

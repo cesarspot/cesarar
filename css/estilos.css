@@ -12,7 +12,7 @@ body{
 }
 
 a{
-  color: #ffffff;
+  color: #ffffffbb;
 }
 
 a:hover{
@@ -20,16 +20,9 @@ a:hover{
 }
 
 
-
 h2{
     font-weight: 300;
 }
-
-h1{
-    font-weight: 400;
-}
-  
-
 
 /*RGB*/
 .bg-rgb{
@@ -73,6 +66,16 @@ h1{
 .certificados{
   height: 100%;
   background-image: url("../img/fondos/certificados.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contactos{
+  height: 100%;
+  background-image: url("../img/fondos/city3.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,6 +177,34 @@ h1{
 
 
 /*BOTON SUBIR*/
+/*Back to Top
+.to-top {
+  position: fixed;
+  z-index: 9999;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+
+.to-top a.back-to-top {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  background: #343a40;
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+.to-top a.back-to-top:hover {
+  opacity: 1;
+  background: #007bff;
+}*/
 
 /*botón up*/
 .boton-subir .open{
@@ -185,12 +216,11 @@ h1{
     display: none;
     background: #289e43;
     border: thin solid #289e43;
-    border-radius: 10px;
+    border-radius: 5px;
     position: fixed;
-    right: 30px;
-    bottom:15px;
+    right: 10px;
+    bottom:10px;
     z-index: 999999999;
-    font-size: 3vh;
 }
 
 /*evento hover*/
@@ -369,7 +399,7 @@ iframe {
 /* Rotate first bar */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-43deg) translate(-9px, 6px) ;
 }
 
 /* Fade out the second bar */
@@ -380,7 +410,7 @@ iframe {
 /* Rotate last bar */
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(38deg) translate(-8px, -8px) ;
 }
 /*TOGGLE ICON NAVBAR*/
 
@@ -553,6 +583,11 @@ iframe {
 
 }
 /*FOOTER*/
+
+/*ANIMATION TEXT MAIN*/
+
+
+/*ANIMATION TEXT MAIN*/
 
 
 

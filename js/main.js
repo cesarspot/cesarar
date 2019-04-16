@@ -78,4 +78,3 @@ function myFunction(x) {
 }
 /*TOGGLE ICON NAVBAR*/
 
-
